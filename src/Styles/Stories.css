@@ -1,0 +1,119 @@
+.stories-outer-container {
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(to right, #00c3ff9e, #ffff1c8e);
+	position: relative;
+}
+
+.story-container {
+	width: 90%;
+	position: relative;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	display: flex;
+	background-image: linear-gradient(#0f2027, #192d34, #23414e);
+	border-radius: 30px;
+}
+
+.story-name-container {
+	height: 100%;
+	width: 20%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.story-board-container {
+	min-height: 100%;
+	width: 80%;
+}
+
+.story-name {
+	border: 0 none white;
+	font-family: Roboto;
+	resize: none;
+	width: 90%;
+	margin-top: 50%;
+	word-wrap: break-word;
+	text-align: center;
+	color: white;
+	overflow: hidden;
+	outline: none;
+	background: none;
+	font-size: 30px;
+}
+
+.story-dropdown-menu {
+	width: 80%;
+	height: 5%;
+	margin-left: 10%;
+	margin-top: 30%;
+	outline: none;
+	border-radius: 5px;
+	background-color: #373837;
+	color: white;
+	box-shadow: 0 2px 5px grey, 0 3px 3px lightslategray;
+	text-transform: capitalize;
+}
+
+.story-dropdown-item {
+	width: 60%;
+	height: 15%;
+	text-transform: capitalize;
+}
+
+.story-time {
+	position: absolute;
+	color: aliceblue;
+	bottom: 15px;
+	left: 20px;
+	opacity: 0.3;
+}
+
+.story-delete-icon {
+	position: absolute;
+	top: 5%;
+	right: 1.5%;
+}
+
+.story-delete-icon,
+.story-save-icon {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.story-delete-icon:hover {
+	opacity: 1;
+	filter: brightness(1.2);
+	transition: filter 0.3s ease-in;
+}
+
+.story-save-icon:hover {
+	opacity: 1;
+}
+
+.story-save-icon {
+	position: absolute;
+	top: 5%;
+	left: 1.5%;
+}
+
+.display-project-name {
+	position: absolute;
+	top: 10px;
+	right: 40px;
+	font-size: 25px;
+	font-weight: 500;
+	opacity: 0.3;
+}
+
+.display-feature-name {
+	position: absolute;
+	top: 50px;
+	right: 40px;
+	font-size: 25px;
+	font-weight: 500;
+	opacity: 0.3;
+}

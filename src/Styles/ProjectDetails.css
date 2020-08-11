@@ -1,0 +1,244 @@
+.to-features-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+
+.to-features-button:hover {
+	filter: invert();
+	filter: brightness(1.2);
+	transition: filter 0.3s ease-in;
+}
+
+.project-details-container {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: linear-gradient(to right, #a8ff78, #78ffd6);
+}
+
+.project-name {
+	height: 15%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.people-add-display-wrapper {
+	height: 40%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.type-ahead-dropdown-wrapper {
+	height: 100%;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.add-people-header {
+	height: 15%;
+	width: 100%;
+	font-size: 25px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.type-ahead-search-bar {
+	overflow: hidden;
+	width: 80%;
+	height: 15%;
+	padding: 10px;
+	background-color: #373837;
+	color: white;
+	box-shadow: 0 10px 20px grey, 0 6px 6px lightslategray;
+	border-radius: 20px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: large;
+	font-weight: 400;
+}
+
+.type-ahead-dropdown-list {
+	min-height: 70%;
+	width: 80%;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 10px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	list-style-type: none;
+}
+
+.type-ahead-dropdown-item {
+	text-transform: capitalize;
+	font-size: large;
+	width: 100%;
+	text-align: center;
+	margin: 0px;
+	padding: 3px;
+	cursor: pointer;
+}
+
+.type-ahead-dropdown-item:nth-child(2n) {
+	background-color: #d4ebff;
+}
+
+.type-ahead-dropdown-item:nth-child(2n + 1) {
+	background-color: lightblue;
+}
+
+.type-ahead-dropdown-item:hover {
+	text-shadow: none;
+	filter: brightness(1.1);
+	transition: filter 0.3s ease-in;
+}
+
+.project-employees-wrapper {
+	height: 100%;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.project-employees-header {
+	height: 15%;
+	width: 100%;
+	font-size: 25px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.project-employees-list {
+	min-height: 85%;
+	width: 80%;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 10px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	list-style-type: none;
+}
+
+.project-employee-item {
+	text-transform: capitalize;
+	font-size: large;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px;
+	padding: 3px;
+	position: relative;
+}
+
+.project-employee-item:nth-child(2n) {
+	background-color: #d4ebff;
+}
+
+.project-employee-item:nth-child(2n + 1) {
+	background-color: lightblue;
+}
+
+.project-employee-item:hover {
+	background-color: none;
+	filter: none;
+	text-shadow: none;
+}
+
+.remove-employee-icon {
+	position: absolute;
+	right: 50px;
+	bottom: 5px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.remove-employee-icon:hover {
+	opacity: 1;
+	transition: opacity 0.3s ease-in;
+}
+
+.description-wrapper {
+	height: 45%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.description-form {
+	height: 80%;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.project-description-label {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+
+.description-textarea {
+	overflow: hidden;
+	width: 80%;
+	height: 80%;
+	padding: 20px;
+	background-color: #373837;
+	color: white;
+	box-shadow: 0 10px 20px grey, 0 6px 6px lightslategray;
+	border-radius: 20px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: large;
+	font-weight: 400;
+	outline: none;
+}
+
+.description-save-button {
+	margin-top: 15px;
+	padding: 5px;
+	width: 100px;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	color: white;
+	background-color: rgb(0, 55, 221);
+	cursor: pointer;
+}
+
+.description-save-button:hover {
+	background-color: rgb(0, 0, 255);
+	box-shadow: 0 0 5px 2px #fff;
+	transition: box-shadow background-color 0.3s ease-in;
+}

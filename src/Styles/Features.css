@@ -1,0 +1,50 @@
+.features-outer-container {
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(to right, #ef32d980, #89fffdb4);
+	position: relative;
+}
+
+.employee-dropdown-menu {
+	width: 80%;
+	height: 15%;
+	margin-left: 10%;
+	outline: none;
+	border-radius: 5px;
+	background-color: #373837;
+	color: white;
+	box-shadow: 0 2px 5px grey, 0 3px 3px lightslategray;
+	text-transform: capitalize;
+}
+
+.status-dropdown-menu {
+	margin-bottom: 3%;
+}
+
+.employee-dropdown-item {
+	width: 60%;
+	height: 15%;
+	text-transform: capitalize;
+}
+
+.access-message {
+	background-color: green;
+	margin-left: 20px;
+	padding: 3px;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+.employee-name-tag {
+	margin-left: 20px;
+	text-transform: capitalize;
+}
+
+.show-project-name {
+	position: absolute;
+	top: 10px;
+	right: 40px;
+	font-size: 25px;
+	font-weight: 500;
+	opacity: 0.3;
+}
