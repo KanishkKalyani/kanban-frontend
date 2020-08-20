@@ -8,7 +8,7 @@
 .story-container {
 	width: 90%;
 	position: relative;
-	margin-top: 60px;
+	margin-top: 80px;
 	margin-bottom: 10px;
 	display: flex;
 	background-image: linear-gradient(#0f2027, #192d34, #23414e);
@@ -27,6 +27,7 @@
 
 .story-board-container {
 	min-height: 100%;
+	padding-bottom: 10px;
 	width: 80%;
 }
 

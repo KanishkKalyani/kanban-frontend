@@ -12,6 +12,8 @@ import PrivateRoute from "./PrivateRoute";
 import Stories from "./../Components/Stories";
 import Features from "./../Components/Features";
 import ProjectDetails from "./../Components/ProjectDetails";
+import AppDetailsPage from "./../Components/AppDetailsPage";
+import ImageUpload from "./../Components/ImageUpload";
 
 class Routes extends Component {
 	constructor(props) {
@@ -23,6 +25,11 @@ class Routes extends Component {
 			<BrowserRouter>
 				<Switch>
 					<PublicRoute path="/" exact component={Home} />
+					<PublicRoute
+						path="/app-details-page"
+						exact
+						component={AppDetailsPage}
+					/>
 					<PublicRoute restricted path="/sign-up" exact component={SignUp} />
 					<PublicRoute restricted path="/sign-in" exact component={SignIn} />
 					<PublicRoute
@@ -44,6 +51,7 @@ class Routes extends Component {
 						component={ResetPassword}
 					/>
 					<PrivateRoute path="/projects" exact component={Projects} />
+					<PrivateRoute path="/profile-image" exact component={ImageUpload} />
 					<PrivateRoute
 						path="/project-details"
 						exact

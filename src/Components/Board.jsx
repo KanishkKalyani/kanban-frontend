@@ -444,7 +444,6 @@ class Board extends React.Component {
 						}
 					});
 					this.setState({ columns });
-					console.log(resp.data);
 				})
 				.catch(err => {
 					if (err && err.response && err.response.data) {
@@ -459,7 +458,6 @@ class Board extends React.Component {
 
 	render() {
 		const { columns } = this.state;
-		console.log("STATE", this.state);
 		return (
 			<div
 				onClick={() => {
@@ -552,7 +550,6 @@ class Board extends React.Component {
 															borderRadius: 8,
 														}}>
 														{column.tasks.map((task, index) => {
-															console.log(`TASK`, task);
 															return (
 																// Draggable are all Tasks
 																<Draggable
@@ -560,8 +557,6 @@ class Board extends React.Component {
 																	draggableId={task._id}
 																	index={index}>
 																	{(provided, snapshot) => {
-																		console.log(`INSIED TASK`, task);
-
 																		return (
 																			<div
 																				ref={provided.innerRef}
@@ -574,7 +569,6 @@ class Board extends React.Component {
 																					marginBottom: "8px",
 																					borderRadius: 8,
 																					height: "80px",
-																					overflowY: "auto",
 																					textTransform: "capitalize",
 																					backgroundColor: snapshot.isDragging
 																						? "#263b4a"

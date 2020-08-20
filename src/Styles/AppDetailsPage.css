@@ -1,0 +1,11 @@
+.back-home-button {
+	top: 12%;
+}
+
+.app-details-page-container {
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(#40e0d0a8, #ff8c00ac, #ff0080a5);
+	overflow-x: hidden;
+	overflow-y: auto;
+}

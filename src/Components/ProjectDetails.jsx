@@ -206,7 +206,7 @@ class ProjectDetails extends Component {
 					/>
 					<abbr title="Back to All Projects">
 						<img
-							src="https://img.icons8.com/fluent/60/000000/circled-left-2.png"
+							src="https://img.icons8.com/fluent/80/000000/circled-left-2.png"
 							className="back-button"
 							alt="Back Button"
 							onClick={this.backButton}
@@ -215,7 +215,7 @@ class ProjectDetails extends Component {
 
 					<abbr title="To Features">
 						<img
-							src="https://img.icons8.com/fluent/60/000000/circled-right-2.png"
+							src="https://img.icons8.com/fluent/100/000000/circled-right-2.png"
 							className="to-features-button"
 							alt="To Features Button"
 							onClick={this.redirect}

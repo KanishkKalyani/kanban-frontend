@@ -1,7 +1,7 @@
 .to-projects-button {
 	position: absolute;
 	top: 11%;
-	right: 10px;
+	right: 15px;
 	cursor: pointer;
 }
 
@@ -125,4 +125,33 @@
 	padding: 10px;
 	font-family: Roboto Condensed, Roboto, sans-serif;
 	font-size: 17px;
+}
+
+.all-app-features-button-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	padding-bottom: 50px;
+}
+
+.all-app-features-button {
+	padding: 5px 10px;
+	width: 80%px;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	color: white;
+	background-color: rgb(0, 55, 221);
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.all-app-features-button:hover {
+	background-color: rgb(0, 0, 255);
+	box-shadow: 0 0 5px 2px #333;
+	transition: box-shadow 0.3s ease-in;
 }

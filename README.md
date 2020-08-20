@@ -1,68 +1,116 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# KANBAN BOARD
 
-## Available Scripts
+## Hosted Link - https://kanishk-kanban-app.herokuapp.com/
 
-In the project directory, you can run:
+## Features:
 
-### `yarn start`
+- Signing Up
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  - If you are a new user, to sign up with us, select the
+    sign-up option from the top navigation bar. Enter your
+    details in the sign up form and verify your e-mail id with
+    the link bring sent to you. There after, you can simply
+    select the login option and enter your registered e-mail id
+    and password to login and get started!
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- Data Privacy
 
-### `yarn test`
+  - We maintain complete data privacy. All session requests are
+    authenticated using encrypted tokens to make sure your data
+    is safe and accessible only to authorized users.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- No Need to Login Every time
 
-### `yarn build`
+  - Once you login with Kanban Board, your session is valid for
+    seven days. That means you don't need to login again and
+    again, every time you use this website.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Multiple Projects
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+  - You can create multiple projects ans/or can also be part of
+    multiple projects created by other users.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Managerial Access
 
-### `yarn eject`
+  - You have managerial access for the projects created by you.
+    Which means, managers can add other users of the application
+    to the project by simply searching for them and can assign
+    various features in the project to them. Only project
+    manager can edit the project description and delete any
+    feature or the entire project.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Employee Access
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  - If a project manager has added you to their project, you can
+    view the participants and the description of the project.
+    You can also view the names of other participants and the
+    features assigned to them. The name of the feature assigned
+    to you is editable by you.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Features Access
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  - The project may contain various features. While managers
+    have access to view and edit any aspect of the project, the
+    other participants of the projects can access the features
+    assigned to them and customize their feature's data as they
+    wish. Users can also customize the name of the feature
+    assigned to them. Feature creation access is only allowed to
+    the manager.
 
-## Learn More
+- Stories
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  - Each feature can have multiple stories. They may be created
+    by project manager or by the user to whom that feature is
+    assigned. Each Story's name is customizable and deletion of
+    a story will automatically delete all of the tasks in it.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Each Story's Own Kanban Board
 
-### Code Splitting
+  - Each Story has its own Kanban board with four columns and no
+    tasks initially. The tasks can easily be added by the add
+    task bar present above each board. All task and names are
+    editable. All tasks can be dragged and dropped into any
+    column, at any position.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- Complete Editability
 
-### Analyzing the Bundle Size
+  - All projects, features, stories, columns, tasks have
+    editable names.To save the edit changes, simply press enter
+    after editing or press the save icon which will appear on
+    making any changes. Note that the access to make edits will
+    vary as mentioned in the managerial and employee access.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- Clear Access Markings
 
-### Making a Progressive Web App
+  - The projects to which you have manager access will have a
+    clear manager access mark. Similarly, if you are an added
+    user to someone else's project, all the features assigned to
+    you will have clear marking that access is granted to you
+    for the respective project.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- Status
 
-### Advanced Configuration
+  - Each Feature and Story has a dropdown menu to update its
+    status. A story can be closed if and only if all the tasks
+    in that story are in the last column. A feature can be
+    closed if and only if all the stories of the feature have
+    their respective status as closed.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+- Forgot Password
 
-### Deployment
+  - The app has a forgot password option on the Login page. In
+    case you forgot your password, you can change it by getting
+    the password reset link via e-mail to the e-mail id with
+    which you are registered with us.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+- Easy Navigation
 
-### `yarn build` fails to minify
+  - Each page has clear arrows to go to and from one page to
+    another. Also, the navigation bar has direct option to go to
+    the Home Page.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Image Upload
+
+  - User can view, update and delete their profile pictures.
+    Clicking on profile picture will take user to the
+    profile-picture page.

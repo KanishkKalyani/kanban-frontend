@@ -308,7 +308,7 @@ class Stories extends React.Component {
 					className="stories-outer-container">
 					<abbr title="Back to Features">
 						<img
-							src="https://img.icons8.com/fluent/60/000000/circled-left-2.png"
+							src="https://img.icons8.com/fluent/80/000000/circled-left-2.png"
 							className="back-button"
 							alt="Back Button"
 							onClick={this.backButton}

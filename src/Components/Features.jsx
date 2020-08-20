@@ -53,7 +53,12 @@ class Features extends React.Component {
 	};
 
 	backButton = () => {
-		this.props.history.push("projects");
+		this.props.history.push({
+			pathname: "/project-details",
+			state: {
+				projectId: this.props.location.state.projectId,
+			},
+		});
 	};
 
 	addFeature = event => {
@@ -328,9 +333,9 @@ class Features extends React.Component {
 						this.clicked();
 					}}
 					className="features-outer-container">
-					<abbr title="Back to All Projects">
+					<abbr title="Back to Project Details">
 						<img
-							src="https://img.icons8.com/fluent/60/000000/circled-left-2.png"
+							src="https://img.icons8.com/fluent/80/000000/circled-left-2.png"
 							className="back-button"
 							alt="Back Button"
 							onClick={this.backButton}
