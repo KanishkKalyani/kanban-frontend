@@ -1,6 +1,6 @@
 # KANBAN BOARD
 
-## Hosted Link - https://kanishk-kanban-app.herokuapp.com/
+## Hosted Link - https://kanishk-kanban.herokuapp.com/
 
 ## Features:
 
